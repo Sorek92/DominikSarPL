@@ -1,0 +1,89 @@
+
+@media screen and (max-width: 767px){
+	/* Landing section1*/
+
+	.navbar-default {
+		top: 0;
+	}
+
+	#section1, #section2, #section3 {
+		padding-top: 0px;
+	}
+	.row{
+		padding-top: 50px;
+	}
+	#section1 {
+		background-image: url('/img/logo_device.png') ;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+
+
+	#section2 {
+		background-image: url('/img/section2.png') ;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+
+	#section3 {
+		background-image: url('/img/section3.png') ;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+
+	.navbar-default {
+		text-align: center;
+	}
+
+	.navbar-default a{
+		
+	}
+
+	.row {
+
+		background-color: rgba(255,255,255,0.5);
+	}
+
+	.row .second {
+		min-height: 100vh;
+	}
+}
+
+
+
+@media screen and (min-width: 1440px){
+	/* Landing section1*/
+
+
+	.navbar-default {
+		text-align: center;
+	}
+
+	.navbar-default a{
+		
+	}
+
+	.row {
+		margin: 0 auto;
+	}
+}
+
+
+
+
+footer {
+	text-align: center;
+	width: 100%;
+}
